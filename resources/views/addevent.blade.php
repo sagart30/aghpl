@@ -22,7 +22,7 @@
                     @endif
 
                 </div>
-<a href="" class="btn btn-primary float-right">Home</a>
+<a href="{{ Request::root() }}/home" class="btn btn-primary float-right">Home</a>
 </br>
 
 <form action="{{url('event/save')}}" method="post" id="frmupdate" name="frmupdate">
